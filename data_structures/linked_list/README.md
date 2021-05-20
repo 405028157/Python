@@ -1,5 +1,5 @@
 
-(from_sequence.py)[./from_sequence.py] 实现的Node节点， __repr__() 方便调试，也可以仿照写一个 __str__()
+[from_sequence.py](./from_sequence.py) 实现的Node节点， \__repr__() 方便调试，也可以仿照写一个 \__str__()
 ```python
 class Node:
     def __init__(self, data=None):
