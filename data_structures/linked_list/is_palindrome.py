@@ -1,3 +1,6 @@
+"""
+3->4->2->8->7->10->9
+"""
 def is_palindrome(head):
     if not head:
         return True
@@ -25,6 +28,7 @@ def is_palindrome(head):
     return True
 
 
+# stack 可以代替反转链表
 def is_palindrome_stack(head):
     if not head or not head.next:
         return True
