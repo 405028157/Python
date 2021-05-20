@@ -25,3 +25,6 @@ while fast and fast.next:
 ```
 4、@dataclass https://docs.python.org/3/library/dataclasses.html
 [merge_two_lists](./merge_two_lists.py)
+5、self.head = Node(item, self.head) 链表头添加节点，简洁！[__init__.py](./__init__.py)
+根据数组生成链表，也可以用这个方法，不过要先把数组逆转, reversed(list)就可以
+6、从终端处理IO [middle_element_of_linked_list](./middle_element_of_linked_list.py)
