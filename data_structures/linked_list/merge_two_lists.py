@@ -16,6 +16,11 @@ class Node:
     data: int
     next: Optional[Node]
 
+# 和Node等价
+class Node2:
+    def __init__(self, data:int, next: Optional[Node]):
+        self.data = data
+        self.next = next
 
 class SortedLinkedList:
     def __init__(self, ints: Iterable[int]) -> None:
